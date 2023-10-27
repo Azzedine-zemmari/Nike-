@@ -10,6 +10,7 @@ module.exports = {
       },
       colors:{
         Nblack:['#475569'],
+        Gray:['#6D6D6D'],
         Orange:['#FF6452']
       },
       screens: {
