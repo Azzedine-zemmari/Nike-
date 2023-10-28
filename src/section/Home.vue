@@ -19,8 +19,10 @@
                 </div>
             </div>
         </div>
-        <div class=" flex flex-col justify-center items-center " >
-            <Card />
+        <div class="bg-hero bg-cover ">
+            <div class=" flex flex-col my-6 mx-6" >
+                <Card />
+            </div>
         </div>
     </div>
 </template>

@@ -1,14 +1,36 @@
-<template>
-    <div>
-      <transition name="image-fade" mode="out-in">
-        <img class="object-cover  w-full rotate-[15deg]   " :key="Shoes" :src="Shoes" alt="">
-      </transition>
-  
-      <div class="flex flex-row space-x-6">
-        <div v-for="image in images"  :key="image">
-          <img class="bg-card w-20 h-20 mt-4 bg-cover   " @click="Shoes = image" :src="image" alt="">
+<template >
+    <div class=" ">
+        <img 
+        v-motion
+        :initial="{
+        x: 100,
+        opacity: 1,
+        rotate:15
+        }"
+        :enter="{
+        x: 0,
+        opacity: 1,
+        rotate:15,
+        transition: {
+        duration: 600,
+        type: 'keyframes',
+        ease: 'backInOut',
+    },
+}"
+        class=" w-full rotate-[15deg] h-fit    " 
+        :key="Shoes" 
+        :src="Shoes" 
+        alt="">
+
+    <div class="flex  z-0  flex-row space-x-2">
+        <div  v-for="image in images"  :key="image">
+            <img 
+            class=" bg-card mt-10 bg-cover p-7 h-32 w-32    object-center mx-7 rounded-lg shadow-lg"  
+            @click="Shoes = image" 
+            :src="image"
+            alt="">
         </div>
-      </div>
+    </div>
     </div>
   </template>
   
@@ -19,12 +41,17 @@
   import product3 from '../assets/Pictures/product3.png';
   import product5 from '../assets/Pictures/product5.png';
   import product6 from '../assets/Pictures/product6.png';
+  import hero from '../assets/Pictures/hero-26fc9f87.png';
+
+
+
   
-  const images = ref([product1, product2, product3, product5, product6]);
+  
+  const images = ref([product1, product2, product3, product5, product6,hero]);
   const Shoes = ref(product1);
   </script>
   
-  <style>
+  <!-- <style>
   .image-fade-enter-active, .image-fade-leave-active {
     transition: opacity 0.5s;
   }
@@ -33,4 +60,4 @@
     opacity: 0; 
   }
   </style>
-  
+   -->
