@@ -18,6 +18,10 @@ module.exports = {
         'BSM':{'max':'816px','min':'712px'},
         'meduim': {'min':'817px'} 
       },
+      backgroundImage: {
+        'hero': "url('/src/assets/Pictures/collection-background.svg')",
+        'card': "url('/src/assets/Pictures/thumbnail-background.svg')",
+      },
     },
   },
   plugins: [],

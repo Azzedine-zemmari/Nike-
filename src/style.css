@@ -13,3 +13,6 @@
         url('./assets/fonts/Palanquin-Regular.ttf') format('tff');
   /* You can specify other font properties like font-weight and font-style here if needed */
 }
+body{
+  overflow-x: hidden;
+}

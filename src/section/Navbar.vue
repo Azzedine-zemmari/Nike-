@@ -30,7 +30,7 @@ fill="#000000" stroke="none">
 </svg>
     </div>
     <div  v-if="show" class=" bg-stone-50 bg-opacity-50 shadow-sm rounded-md  w-fit px-4 py-4 space-y-1 absolute  top-10 right-5 font-Montserrat BSM:hidden meduim:hidden">
-        <p class=" cursor-pointer" v-for="N in Nav"><a href="{{ N.hre }}" >{{ N.name }}</a></p>
+        <p  v-for="N in Nav"><a href="{{ N.hre }}" >{{ N.name }}</a></p>
     </div>
 </template>
 
