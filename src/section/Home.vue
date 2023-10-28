@@ -1,8 +1,8 @@
 <template>
-    <div id="#Home" class="mt-10 ml-32 grid grid-cols-2 grid-flow-col" >
-        <div class="flex flex-col space-y-7">
-            <p class=" text-Orange-0 font-Montserrat text-base  ">Our Summer Collection</p>
-            <h1 class="  whitespace-nowrap capitalize text-8xl font-bold font-Palanquin z-10">The new arrival <br>  <span class=" whitespace-nowrap text-Orange-0 font-Palanquin">nike</span> shoes</h1>
+    <div id="#Home" class="mt-10 ml-32 grid grid-cols-2 grid-flow-col  " >
+        <div class="flex flex-col space-y-7 ">
+            <p class=" text-Orange-0 font-Montserrat text-base     ">Our Summer Collection</p>
+            <h1 class="  whitespace-nowrap capitalize text-8xl font-bold font-Palanquin z-10 ">The new arrival <br>  <span class=" whitespace-nowrap text-Orange-0 font-Palanquin">nike</span> shoes</h1>
             <p class="text-Gray-0 font-Montserrat">
                 Discover stylish Nike arrivals, quality <br>
                 comfort, and innovation for your active life.
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-hero bg-cover ">
+        <div class=" bg-hero bg-cover  ">
             <div class=" flex flex-col my-6 mx-6" >
                 <Card />
             </div>

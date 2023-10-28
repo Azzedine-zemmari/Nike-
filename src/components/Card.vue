@@ -3,7 +3,7 @@
         <img 
         v-motion
         :initial="{
-        x: 100,
+        x:400,
         opacity: 1,
         rotate:15
         }"
@@ -25,7 +25,9 @@
     <div class="flex  z-0  flex-row space-x-2">
         <div  v-for="image in images"  :key="image">
             <img 
-            class=" bg-card mt-10 bg-cover p-7 h-32 w-32    object-center mx-7 rounded-lg shadow-lg"  
+            class=" bg-card mt-10 bg-cover p-7 h-32 w-32    object-center mx-7 rounded-lg shadow-lg
+            max-sm:flex mx-auto
+            "  
             @click="Shoes = image" 
             :src="image"
             alt="">
