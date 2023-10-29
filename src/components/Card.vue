@@ -1,5 +1,5 @@
 <template >
-    <div class=" ">
+    <div class="">
         <img 
         v-motion
         :initial="{
@@ -17,16 +17,16 @@
         ease: 'backInOut',
     },
 }"
-        class=" w-full rotate-[15deg] h-fit    " 
+        class=" w-fit  rotate-[15deg] h-96 BSM:h-full " 
         :key="Shoes" 
         :src="Shoes" 
         alt="">
 
-    <div class="flex  z-0  flex-row space-x-2">
+    <div class="flex  z-0  flex-row space-x-2 max-sm:w-fit h-fit mt-1">
         <div  v-for="image in images"  :key="image">
             <img 
-            class=" bg-card mt-10 bg-cover p-7 h-32 w-32    object-center mx-7 rounded-lg shadow-lg
-            max-sm:flex mx-auto
+            class=" bg-card  mt-10 bg-cover p-7 h-32 w-32  object-center mx-7 rounded-lg shadow-lg
+             max-sm:w-full ml-0 mr-2 px-3
             "  
             @click="Shoes = image" 
             :src="image"

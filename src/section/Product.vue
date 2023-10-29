@@ -2,13 +2,15 @@
     <div class="mt-10 ml-10 ">
         <h1 class="text-5xl font-black font-Montserrat">Our <span class="text-Orange-0">Popular</span> Products</h1>
         <p class=" text-Gray-0 mt-5 ">Experience top-notch quality and style with our sought-after <br> selections. Discover a world of comfort, design, and value</p>
-        <div v-for="item in data">
-            <Products
-            :src="item.src"
-            :rating="item.rating"
-            :price="item.price"
-            :title="item.title"
-            />
+        <div class="flex flex-row space-x-7 justify-center items-center mt-5">
+            <div  v-for="item in data">
+                <Products
+                :src="item.src"
+                :rating="item.rating"
+                :price="item.price"
+                :title="item.title"
+                />
+            </div>
         </div>
     </div>
 </template>
