@@ -5,7 +5,7 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6096 9.80468C25.1346 13.2758 14.071 16.112 13.0239 16.1065C10.0114 16.0904 7.19209 13.7015 6.76806 10.8064C6.56893 9.44425 6.60402 7.46928 6.84618 6.41814L7.28659 4.50653L5.67183 6.53232C3.16986 9.67124 0.775395 14.608 0.291439 17.6257C-0.65927 23.552 4.08624 27.46 10.4653 26.0039C12.9937 25.4271 60.9554 4.55665 61.8216 3.65636C62.4835 2.96871 58.9453 3.86726 37.6096 9.80468Z" fill="#FF6452"/>
         </svg>
             <ul class="flex  mt-3 xs:hidden sm:hidden md:flex justify-center items-center lg:mt-7 lg:ml-12 ">
-                    <li v-for="N in Nav" class="font-Montserrat text-lg text-Nblack-0 mx-5 hidden md:text-sm mt-2 lg:text-base lg:mx-2 lg:flex md:flex  " ><a :href ="N.hre">{{ N.name }}</a></li>
+                    <li v-for="N in Nav" class="font-Montserrat text-lg text-Nblack-0 mx-5 hidden md:text-sm mt-2 lg:text-base lg:mx-2 lg:flex md:flex  md:mt-7 lg:mt-2 " ><a :href ="N.hre">{{ N.name }}</a></li>
                 </ul>
     </div>
     <div  @click="GetNav" class="  absolute top-10 right-4 cursor-pointer md:hidden lg:hidden ">

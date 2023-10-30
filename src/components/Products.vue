@@ -3,9 +3,9 @@
     id="About"
     class="">
         <div class=" flex flex-col space-y-2">
-            <div class=" bg-card bg-cover w-48 h-48 ">
+            <div class=" bg-card bg-cover w-48 h-48  ">
                 <img 
-                class=" ml-10 mt-8 w-24 h-24 hover:rotate-[17deg] " 
+                class=" ml-10 mt-8 w-24 h-24 hover:rotate-[17deg]  " 
                 :src="props.src" 
                 alt="">
             </div>
