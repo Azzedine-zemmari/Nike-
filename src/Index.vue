@@ -1,7 +1,7 @@
 <template>
     <Navbar/>
-    <Home/>
-    <Product/>
+     <Home/>
+    <!--<Product/> -->
 </template>
 <script setup>
 import Navbar from './section/Navbar.vue';

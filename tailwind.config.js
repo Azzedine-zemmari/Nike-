@@ -14,9 +14,7 @@ module.exports = {
         Orange:['#FF6452']
       },
       screens: {
-        'max-sm': { 'max': '712px' },
-        'BSM':{'max':'816px','min':'712px'},
-        'meduim': {'min':'817px'} 
+        'xs': '475px',
       },
       backgroundImage: {
         'hero': "url('/src/assets/Pictures/collection-background.svg')",

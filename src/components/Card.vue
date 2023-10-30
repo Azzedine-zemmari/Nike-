@@ -17,16 +17,16 @@
         ease: 'backInOut',
     },
 }"
-        class=" w-fit  rotate-[15deg] h-96 BSM:h-full " 
+        class=" w-full  rotate-[15deg] h-96 lg:w-fit md:min-w-full " 
         :key="Shoes" 
         :src="Shoes" 
         alt="">
 
-    <div class="flex  z-0  flex-row space-x-2 max-sm:w-fit h-fit mt-1">
+    <div class="flex  z-0  flex-row space-x-2 sm:w-fit h-fit mt-1">
         <div  v-for="image in images"  :key="image">
             <img 
             class=" bg-card  mt-10 bg-cover p-7 h-32 w-32  object-center mx-7 rounded-lg shadow-lg
-             max-sm:w-full ml-0 mr-2 px-3
+            sm:w-full ml-0 mr-2 px-3
             "  
             @click="Shoes = image" 
             :src="image"
