@@ -30,4 +30,5 @@
 import { statistics } from '../constant/Data.vue';
 import Card from '../components/Card.vue';
 
+
 </script>
