@@ -22,7 +22,27 @@
             <img src="../assets/Pictures/SectionSvg.png" width="600" height="100" alt="">
         </div>
     </div>
+    <div class=" flex flex-col lg:flex-row md:flex-row sm:flex-col">
+        <Cards
+        :src="../assets/Pictures/truck-fast.png"
+        :title="'Free shipping'"
+        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
+        />
+        <Cards
+        :src="support"
+        :title="'Free shipping'"
+        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
+        />
+        <Cards
+        :src="Truck"
+        :title="'Free shipping'"
+        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
+        />
+    </div>
 </template>
 <script setup>
-
+import Cards from '../components/Cards.vue';
+import shieldVue from '../components/shield.vue';
+import support from '../components/support.vue';
+import Truck from '../components/Truck.vue';
 </script>
