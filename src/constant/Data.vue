@@ -15,4 +15,11 @@ export const value = [
     {src:'/src/assets/Pictures/shield-tick.png',title:'Secure Payment',paragraph:"Experience worry-free transactions with our secure payment options."},
     {src:'/src/assets/Pictures/support-43744df6.png',title:'Love to help you',paragraph:"Our dedicated team is here to assist you every step of the way."},
 ];
+export const SpecialCard = [
+    {src: '/src/assets/Pictures/product1.png'},
+    {src:'/src/assets/Pictures/product2.png'},
+    {src:'/src/assets/Pictures/product3.png'},
+    {src:'/src/assets/Pictures/product5.png'},
+    {src:'/src/assets/Pictures/product6.png'}    
+];
 </script>

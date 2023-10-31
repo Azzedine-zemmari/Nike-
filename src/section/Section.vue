@@ -22,12 +22,13 @@
             <img src="../assets/Pictures/SectionSvg.png" width="600" height="100" alt="">
         </div>
     </div>
-    <div class=" flex flex-col mt-5 space-y-5 mx-5  lg:flex-row md:flex-row  lg:justify-between lg:mx-10 md:justify-center">
+    <div class=" flex flex-col mt-5 space-y-5 mx-5  lg:flex-row md:flex-row  lg:justify-between lg:mx-10  md:flex-wrap">
         <Cards 
         v-for="item in value"
         :sr="item.src" 
         :title="item.title" 
         :paragraph="item.paragraph" 
+        class="lg:my-5 md:my-5"
         />
     </div>
 </template>
