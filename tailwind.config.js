@@ -11,7 +11,8 @@ module.exports = {
       colors:{
         Nblack:['#475569'],
         Gray:['#6D6D6D'],
-        Orange:['#FF6452']
+        Orange:['#FF6452'],
+        JiJi:['#F5F6FF']
       },
       screens: {
         'xs': '475px',
