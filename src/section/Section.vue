@@ -2,7 +2,7 @@
     <div class="flex flex-col space-y-5 mt-10 md:flex-row lg:flex-row  ">
         <div class="flex flex-col space-y-4 ml-7 lg:ml-10 ">
             <h1 class="text-4xl font-Palanquin text-black font-bold mt-5  md:text-4xl lg:text-5xl ">We Provide You <span class="text-Orange-0">Super <br> Quality</span> Shoes</h1>
-            <p class="text-2xl text-Nblack-0 font-Montserrat">
+            <p class="text-2xl text-Nblack-0 font-Montserrat md:text-justify md:whitespace-nowrap">
                 Ensuring premium comfort and style, our meticulously <br>
                 crafted footwear is designed to elevate your experience, <br>
                 providing you with unmatched quality, innovation, and a <br> 
@@ -18,31 +18,21 @@
             </svg>
             </button>
         </div>
-        <div class="lg:ml-64">
+        <div class="lg:ml-64 md:w-full md:h-full">
             <img src="../assets/Pictures/SectionSvg.png" width="600" height="100" alt="">
         </div>
     </div>
-    <div class=" flex flex-col lg:flex-row md:flex-row sm:flex-col">
-        <Cards
-        :src="../assets/Pictures/truck-fast.png"
-        :title="'Free shipping'"
-        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
-        />
-        <Cards
-        :src="support"
-        :title="'Free shipping'"
-        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
-        />
-        <Cards
-        :src="Truck"
-        :title="'Free shipping'"
-        :paragraph="'Enjoy seamless shopping with our complimentary shipping service.'"
+    <div class=" flex flex-col mt-5 space-y-5 mx-5  lg:flex-row md:flex-row  lg:justify-between lg:mx-10 md:justify-center">
+        <Cards 
+        v-for="item in value"
+        :sr="item.src" 
+        :title="item.title" 
+        :paragraph="item.paragraph" 
         />
     </div>
 </template>
 <script setup>
 import Cards from '../components/Cards.vue';
-import shieldVue from '../components/shield.vue';
-import support from '../components/support.vue';
-import Truck from '../components/Truck.vue';
+import {value} from '../constant/Data.vue'
+
 </script>
