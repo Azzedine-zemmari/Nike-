@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class=" selection:bg-Orange-0 selection:text-white">
     <Index/>
   </div>
 </template>
