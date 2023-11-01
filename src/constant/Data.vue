@@ -26,4 +26,23 @@ export const CustomersInfo = [
     {image:"/src/assets/Pictures/customer1.jpeg",comment:'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',rating:'(4.5)',name:'Morich Brown'},
     {image:"/src/assets/Pictures/customer1.jpeg",comment:"The product not only met but exceeded my expectations. I'll definitely be a returning customer!",rating:'(4.5)',name:'Morich Brown'}
 ]
+export const Products = [
+    'Air Force 1',
+    'Air Max 1',
+    'Air Jordan 1',
+    "Air Force 2",
+    'Nike Waffle Racer',
+    'Nike Cortez'
+];
+export const help =[
+    'About us',
+    'FAQs',
+    'How it works',
+    'Privacy policy',
+    'Payment policy'
+];
+export const GetIntouch = [
+    'azzedinezemmari@gmail.com',
+    '0767228591'
+];
 </script>
